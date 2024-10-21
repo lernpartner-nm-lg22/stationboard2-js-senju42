@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stationboard</title>
     <script src="/assets/app.js" type="module"></script>
-    <link rel="stylesheet" href="/assets/style.css">
-</head>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="table-fixed-head">
-
-        <table id="time-table">
-            <tbody id="table-body">
-                <!-- hier erscheint die Tabelle -->
-            </tbody>
-            <thead>
-                <tr>
-                    <th>Uhrzeit</th>
-                    <th>Richtung</th>
-                    <th>Gleis</th>
-                </tr>
-            </thead>
-            <caption>
-                <h1>Stationboard <span id="stationname"></span></h1>
-                <input type="text" id="station" />
-                <button>ok</button>
-            </caption>
-        </table>
-
+      <table id="time-table">
+        <tbody id="table-body">
+          <!-- hier erscheint die Tabelle -->
+        </tbody>
+        <thead>
+          <tr>
+            <th>Uhrzeit</th>
+            <th>Richtung</th>
+            <th>Gleis</th>
+          </tr>
+        </thead>
+        <caption>
+          <h1>Stationboard <span id="station-name"></span></h1>
+          <input type="text" id="station" />
+          <button id="submit">ok</button>
+        </caption>
+      </table>
     </div>
-</body>
-
+  </body>
 </html>
